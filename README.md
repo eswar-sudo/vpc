@@ -12,8 +12,6 @@ See `variables.tf` for available configuration options and `outputs.tf` for modu
 ## Usage
 
 ```hcl
-module "vpc" {
-  source = "git::https://github.com/dcli-com/aws-iac.git//vpc?ref=main"
 
   # Required variables
   project     = "core"
